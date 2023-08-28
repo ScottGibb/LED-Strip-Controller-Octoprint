@@ -1,13 +1,13 @@
-    """_summary_
-    A Simple IP Script for controlling the Server Rack LED Controller, This is used for both the Telegram plugin and the octolapse plugin
-    """
+"""_summary_
+A Simple IP Script for controlling the Server Rack LED Controller, This is used for both the Telegram plugin and the octolapse plugin
+"""
 
 # Imports
 import argparse
 import socket
 import logging
 
-from Communications.Types import CHANNEL, COLOUR, FADE_TYPE
+from Communications.Types import CHANNEL, COLOUR
 from Communications.CommsProtocol import create_constant_colour_message
 
 # Configure the logging system

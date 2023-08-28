@@ -67,7 +67,7 @@ ignored-modules=
 
 # Python code to execute, usually for sys.path manipulation such as
 # pygtk.require().
-init-hook= 'import sys; sys.path.append("src/python/")'
+init-hook= 'import sys; sys.path.append("src/")'
 
 # Use multiple processes to speed up Pylint. Specifying 0 will auto-detect the
 # number of processors available to use, and will cap the count on Windows to
@@ -354,7 +354,7 @@ single-line-if-stmt=no
 
 # List of modules that can be imported at any level, not just the top level
 # one.
-allow-any-import-level=
+allow-any-import-level=yes
 
 # Allow explicit reexports by alias from a package __init__.
 allow-reexport-from-package=no
