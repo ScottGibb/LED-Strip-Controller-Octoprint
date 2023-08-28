@@ -1,6 +1,6 @@
 # Octoprint LED Strip Controller Integration Script
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Static Analysis](https://github.com/ScottGibb/LED-Strip-Controller-Octoprint/actions/workflows/Static%20Analysis.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Octoprint/actions/workflows/Static%20Analysis.yaml)
 
 ![Languages and Tools](docs/Languages_and_Tools.png)
 
@@ -41,7 +41,7 @@ The structure of the repository is outlined below:
     ├── LICENSE
     |── markdownlint.json
     ├── README.md
-    └── yamllint.yaml
+    └── .yamllint.yaml
 ```
 
 At the moment the project requires the communications python code which is copied directly from the software repository, this should be replaced with a submodule in the future. Which uses Google Brotobuff for multiple language support.
