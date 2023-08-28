@@ -1,4 +1,4 @@
-"""_summary_
+"""
 A Simple IP Script for controlling the Server Rack LED Controller, This is used for both the Telegram plugin and the octolapse plugin
 """
 
@@ -7,7 +7,8 @@ import argparse
 import socket
 import logging
 
-from Communications.Types import CHANNEL, COLOUR
+# Communications Import
+from Communications.Types import Channel, Colour
 from Communications.CommsProtocol import create_constant_colour_message
 
 # Configure the logging system
@@ -24,8 +25,8 @@ IP_ADDRESS = "192.168.0.68"
 PORT_NUM = 6000
 
 # Channel Configuration
-TOP_SHELF_CHANNEL = CHANNEL.CHANNEL_2
-TOP_SHELF_COLOUR = COLOUR.WHITE
+TOP_SHELF_CHANNEL = Channel.CHANNEL_2
+TOP_SHELF_COLOUR = Colour.WHITE
 TOP_SHELF_BRIGHTNESS_ON = 100
 TOP_SHELF_BRIGHTNESS_OFF = 0
 

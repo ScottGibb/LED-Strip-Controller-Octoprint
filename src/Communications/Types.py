@@ -1,15 +1,18 @@
+"""
+Types.py file contains all the enums and constants used in the communications protocol
+"""
 from enum import Enum
 
 # Buffer Sizes
-RX_MSG_CNT = 14
-TX_MSG_SIZE = 10
+RX_MSG_CNT: int = 14
+TX_MSG_SIZE: int = 10
 
 
-class COLOUR(Enum):
-    """_summary_
+class Colour(Enum):
+    """
     Colour Enum specifying each colour the system can do
     Args:
-        Enum (_type_): _description_
+        Colour (Enum): The different colours of the system
     """
     RED = 0
     GREEN = 1
@@ -27,11 +30,11 @@ class COLOUR(Enum):
     NUM_COLOURS = 13
 
 
-class FADE_TYPE(Enum):
-    """_summary_
+class FadeType(Enum):
+    """
     Fade Type enum representing each of the modes the system can do
     Args:
-        Enum (_type_): _description_
+        FadeType (Enum): The different fade types of the system
     """
     NONE = 0
     SINE = 1
@@ -44,11 +47,11 @@ class FADE_TYPE(Enum):
     SIZE = 8
 
 
-class CHANNEL(Enum):
-    """_summary_
+class Channel(Enum):
+    """
     Channel Enum representing each of the channels and there subsequent IDs
     Args:
-        Enum (_type_): _description_
+        Channel (Enum): The different channels of the system
     """
     CHANNEL_NS = 0
     CHANNEL_1 = 1
@@ -57,16 +60,20 @@ class CHANNEL(Enum):
     NUM_CHANNELS = 3
 
 
-class TX_MSG_ID(Enum):
+class TxMsgId(Enum):
     """
     TX_MSG_ID defines the different tx messages the hardware can send
+    Args:
+        TxMsgId (Enum): The different tx messages the hardware can send
     """
     LED_UPDATE = 0
     PWR_UPDATE = 1
 
 
-class CTRL_CMD_ID(Enum):
+class CtrlCmdId(Enum):
     """
     CTRL_CMD_ID defines the different messages that can be sent to the hardware
+    Args:
+        CtrlCmdId (Enum): The different messages that can be sent to the hardware
     """
     LED_CHANGE = 0
