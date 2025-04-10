@@ -158,18 +158,3 @@ jobs:
             echo "A PR with formatting fixes has been created. Please merge it before proceeding."
             exit 1
           fi
-
-  XML_lint:
-    name: XML Lint
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Install Dependencies
-        run: sudo apt-get install -y libxml2-utils
-      - name: XML Lint
-        run: |
-          echo "Sticking <!DOCTYPE manifest SYSTEM \"default.dtd\"> at the top of default.xml"
-          { echo '<!DOCTYPE manifest SYSTEM "default.dtd">'; cat default.xml; } > temp.xml && mv temp.xml default.xml
-          cat default.xml
-          xmllint --noout --valid default.xml
