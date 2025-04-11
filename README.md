@@ -17,33 +17,6 @@ The architecture of the system as of the 28/08/2023 is shown below:
 
 ## Repository Structure
 
-The structure of the repository is outlined below:
-
-```bash
-    ├── .github
-    │   └── workflows
-    │       └── Static Analysis.
-    ├── docs
-    │   └── 
-    ├── scripts
-    │   ├── TurnOffLights.sh
-    │   ├── TurnOnLights.sh
-    │   └── README.md
-    ├── src
-    │   ├── __init__.py
-    │   ├── main.py
-    │   └── Communications # TODO: Move to seperate Sub Module
-    │       ├── __init__.py
-    │       └── CommsProtocol.py
-    |       └── Types.py
-    ├── .gitignore
-    ├── .pylintrc
-    ├── LICENSE
-    |── markdownlint.json
-    ├── README.md
-    └── .yamllint.yaml
-```
-
 At the moment the project requires the communications python code which is copied directly from the software repository, this should be replaced with a submodule in the future. Which uses Google Brotobuff for multiple language support.
 
 ## Octoprint Links
