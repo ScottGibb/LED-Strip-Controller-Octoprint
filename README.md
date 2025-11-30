@@ -1,6 +1,6 @@
 # Octoprint LED Strip Controller Integration Script
 <!-- markdown-link-check-disable -->
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![MegaLinter](https://github.com/ScottGibb/LED-Strip-Controller-Octoprint/actions/workflows/Mega%20Linter.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Octoprint/actions/workflows/Mega%20Linter.yaml)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![MegaLinter](https://github.com/ScottGibb/LED-Strip-Controller-Octoprint/actions/workflows/mega_linter.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Octoprint/actions/workflows/mega_linter.yaml) [![release-please](https://github.com/ScottGibb/LED-Strip-Controller-Octoprint/actions/workflows/release_please.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Octoprint/actions/workflows/release_please.yaml)
 <!-- markdown-link-check-enable -->
 ![Languages and Tools](docs/Languages_and_Tools.png)
 
