@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/ScottGibb/LED-Strip-Controller-Octoprint/compare/v0.1.0...v0.2.0) (2025-12-15)
+
+
+### Features
+
+* **ci:** Update Dependabot workflow for auto-merging ([cbd39d5](https://github.com/ScottGibb/LED-Strip-Controller-Octoprint/commit/cbd39d50c3d21cc0ea170ca3c40e0773ed363746))
+
 ## 0.1.0 (2025-11-30)
 
 ### Features
